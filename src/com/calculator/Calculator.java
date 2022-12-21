@@ -28,11 +28,11 @@ public class Calculator {
 				break;
 
 			case 3:
-				System.out.println("Result of addition is: " + mul(firstNumber, secondNumber));
+				System.out.println("Result of addition is: " + multiply(firstNumber, secondNumber));
 				break;
 
 			case 4:
-				System.out.println("Result of addition is: " + div(firstNumber, secondNumber));
+				System.out.println("Result of addition is: " + divide(firstNumber, secondNumber));
 				break;
 
 			case 5:
@@ -69,11 +69,11 @@ public class Calculator {
 		return firstNumber - secondNumber;
 	}
 
-	public static double mul(double firstNumber, double secondNumber) {
+	public static double multiply(double firstNumber, double secondNumber) {
 		return firstNumber * secondNumber;
 	}
 
-	public static double div(double firstNumber, double secondNumber) {
+	public static double divide(double firstNumber, double secondNumber) {
 		return firstNumber / secondNumber;
 	}
 }
